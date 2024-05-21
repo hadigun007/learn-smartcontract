@@ -1,0 +1,19 @@
+{
+  "name": "store-ether",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node compile.js",
+    "start": "ganache-cli",
+    "deploy": "node deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "solc": "^0.8.19",
+    "web3": "^4.8.0"
+  }
+}
