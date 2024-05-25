@@ -1,0 +1,18 @@
+{
+  "name": "store-ether",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "start": "ganache",
+    "deploy": "node deploy.js",
+    "test": "mocha test.js --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.7",
+    "web3": "^4.6.0"
+  }
+}
