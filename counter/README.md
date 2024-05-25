@@ -6,9 +6,10 @@
 
 
 ## Setup
-```
+``` sh
 npm install
 npm install ganache --global
+# update config with private key from ganache
 ```
 
 ## Run Local Blockhain(ganache)
